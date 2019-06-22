@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"follow_symlinks": true,
+			"file_exclude_patterns": ["*.map", "*.cmd", "*.xlsx", "static/js/game/*.js", "deleted/*"]
+		}
+	]
+}

@@ -1,0 +1,156 @@
+<html>
+<head>
+    <title>Heavy Axe</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/brew.css" />
+
+    <!-- <link href="/static/css/heroic.css" rel="stylesheet"> -->
+    
+    <script src="static/js/lib/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
+
+    <script src="static/js/game/titlescreen.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function ( ) {
+
+            WebFont.load({
+                custom: {
+                    families: ['DejaVuSansMono'],//, 'Topaz8', 'White Rabbit'],
+                    urls: ['static/css/dejavusansmono.css']//, '/static/css/topaz.css', '/static/css/whitrabt.css']
+                }//,
+                //active: HeavyAxeTitle.updateTitleMenu
+            });
+
+            $("#id_div_title_image").bind("click", function (event) {
+                HeavyAxeTitle.startGame();
+            });
+
+            $(document).keydown(function (event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    HeavyAxeTitle.startGame();
+                }
+            });
+
+        }); // end document.ready
+    </script>
+</head>
+<body>
+    <div id="hf-header"></div>
+
+    <div id="id_div_content" class="container">
+
+        <div id="id_div_title_image">
+            <!-- <pre>
+                                                                    
+                <span class="title_span_0">   ▄█    █▄       ▄████████    ▄████████  ▄█    █▄  ▄██   ▄           ▄████████ ▀████    ▐████▀    ▄████████</span>
+                <span class="title_span_1">  ███    ███     ███    ███   ███    ███ ███    ███ ███   ██▄        ███    ███   ███▌   ████▀    ███    ███</span>
+                <span class="title_span_2">  ███    ███     ███    █▀    ███    ███ ███    ███ ███▄▄▄███        ███    ███    ███  ▐███      ███    █▀ </span>
+                <span class="title_span_3"> ▄███▄▄▄▄███▄▄  ▄███▄▄▄       ███    ███ ███    ███ ▀▀▀▀▀▀███        ███    ███    ▀███▄███▀     ▄███▄▄▄    </span>
+                <span class="title_span_4">▀▀███▀▀▀▀███▀  ▀▀███▀▀▀     ▀███████████ ███    ███ ▄██   ███      ▀███████████    ████▀██▄     ▀▀███▀▀▀    </span>
+                <span class="title_span_5">  ███    ███     ███    █▄    ███    ███ ███    ███ ███   ███        ███    ███   ▐███  ▀███      ███    █▄ </span>
+                <span class="title_span_6">  ███    ███     ███    ███   ███    ███ ███    ███ ███   ███        ███    ███  ▄███     ███▄    ███    ███</span>
+                <span class="title_span_7">  ███    █▀      ██████████   ███    █▀   ▀██████▀   ▀█████▀         ███    █▀  ████       ███▄   ██████████</span>
+
+            </pre> -->
+            <img class="align-center" src="static/images/title.png"/>
+        </div>
+        
+        <br/>
+
+        <p>A "roguelike" game originally created for the <a href="http://www.roguebasin.com/index.php?title=7DRL_Challenge_2015">2015 7-Day Roguelike Challenge</a>
+        By <a href="http://heroicfisticuffs.com">HeroicFisticuffs</a>, using <a href="http://coffeescript.org/">CoffeeScript</a> and the amazing <a href="http://ondras.github.io/rot.js/hp/">rot.js</a> library</p>
+        <br/>
+        <p><strong>Click Title Above or Press ENTER to Start a New Game</strong></p>
+        
+        <br/>
+
+        <h4 class="title">Heavy Axe</h4>
+        <p>
+        It's up to you to destroy the gods. You have been given a magical Axe that can destroy anything -- mortal or immortal. <span class="offset_row">Walking with the Axe drains Stamina, and Stamina directly determines damage.</span> Plan your steps carefully! Make your way to the top of the temple and kill anything in your way.
+        </p>
+        <br/>
+
+        <h4 class="title">Controls</h4>
+        <div id="id_div_controls">
+
+            <table id="id_table_controls" class="controls">
+                <tr>
+                    <td></td>
+                    <td class="center controls"><strong>Keyboard</strong></td>
+                    <td class="center controls"><strong>Alt. Keyboard</strong></td>
+                    <td class="center controls"><strong>Gamepad</strong></td>
+                    <td class="center controls"><strong>Mouse/Touch</strong></td>
+                </tr>
+                
+                <tr>
+                    <td>Movement</td>
+                    <td class="center controls">↑←↓→</td>
+                    <td class="center controls">WASD</td>
+                    <td class="center controls">↑←↓→</td>
+                    <td class="center controls">Click Edge</td>
+                </tr>
+
+                <tr>
+                    <td>Rest/Taunt/Activate</td>
+                    <td class="center controls">space</td>
+                    <td class="center controls">space</td>
+                    <td class="center controls"><span style='color: green'>A</span></td>
+                    <td class="center controls">Click @</td>
+                </tr>
+
+                <tr>
+                    <td>Drop Axe</td>
+                    <td class="center controls">x</td>
+                    <td class="center controls">q</td>
+                    <td class="center controls"><span style='color: red'>B</span></td>
+                    <td class="center controls">Alt-Click @</td>
+                </tr>
+
+                <tr>
+                    <td>Inventory</td>
+                    <td class="center controls">i</td>
+                    <td class="center controls">e</td>
+                    <td class="center controls"><span style='color: lightblue'>X</span></td>
+                    <td class="center controls">Alt-Click Edge</td>
+                </tr>
+
+            </table>
+        </div>
+        <br/>
+
+        <h4 class="title">Interaction</h4>
+
+        <div id="id_div_interaction">
+            <ul>
+                <li>Walkover scrolls <span style='color: yellow'>♪</span> (or Axe <span style='color: yellow'>↑</span>) to pick them up</li>
+                <li class="offset_row">Stand on a Rune <span style='color: yellow'>◇</span> or Exit <span style='color: yellow'>Ω</span> and hit Activate to trigger it</li>
+                <li>Advance to the next level by defeating all enemies</li>
+                <li class="offset_row">For mouse or touch users, <i>Alt-Click</i> is a right-click (non-primary button) or long-press</li>
+            </ul>
+        </div>
+        <br/>
+
+        <h4 class="title">Gameplay and Tactics</h4>
+        <div id="id_div_gameplay">
+            <ul>
+                <li>You deal <span style='color: lightblue'>Stamina</span> damage per attack, with a minimum of 1</li>
+                <li class="offset_row">While carrying the Axe, each step will drain Stamina</li>
+                <li>Use the <strong>Action</strong> key to "rest" and regain stamina. This will also taunt nearby enemies</li>
+                <li class="offset_row">Don't waste time! A counter indicates the approach of <span style='color: maroon'>The Warden</span>. Carrying the Axe and Taunting increment the timer more quickly.</li>
+                <li>All monsters do 1 damage, unless specified otherwise</li>
+                <li class="offset_row">Every time you kill an enemy, your <span style='color: lightblue'>Stamina</span> resets. Use this to chain as many attacks together as possible. (Without getting hit of course)</li>
+                <li>Pay attention to the maximum health of incoming monsters (right side), don't get trapped! You can't afford to waste turns taking damage</li>
+                <li class="offset_row">For tougher enemies with more than six health, you will need to come up with other ways of damaging them without being hit.</li>
+            </ul>
+        </div>
+        <br/>
+
+    </div>
+    <div id="hf-footer"></div>
+    <script src="/static/js/hf-other-bundle.js"></script>
+</body>
+</html>

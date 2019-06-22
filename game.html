@@ -1,0 +1,280 @@
+<html>
+<head>
+    <title>Heavy Axe</title>
+
+    <link rel="stylesheet" href="static/css/brew.css" />
+    <!-- <link rel="stylesheet" href="static/css/dejavusansmono.css" /> -->
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
+
+    <script>
+    //   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    //   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    //   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    //   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    //   ga('create', 'UA-28047414-4', 'auto');
+    //   ga('send', 'pageview');
+
+    </script>
+    
+    <script src="static/js/lib/jquery.min.js"></script>
+    <script src="static/js/lib/rot.js" ></script>
+    <script src="static/js/lib/gridmangler.js" ></script>
+    <script src="static/js/lib/howler.min.js" ></script>
+    
+
+    <script src="static/js/game/_top.js" ></script>
+
+    <script src="static/js/game/brew_gamepad.js" ></script>
+    <script src="static/js/game/brew_sound.js" ></script>
+
+    <script src="static/js/game/config.js" ></script>
+    <script src="static/js/game/utils.js" ></script>
+    <script src="static/js/game/objects.js" ></script>
+
+    <script src="static/js/game/catalog/group.js" ></script>
+    <script src="static/js/game/catalog/catalog.js" ></script>
+    <script src="static/js/game/catalog/itemtype.js" ></script>
+
+    <script src="static/js/game/definition/terrain.js" ></script>
+    <script src="static/js/game/definition/feature.js" ></script>
+    <script src="static/js/game/definition/item.js" ></script>
+    <script src="static/js/game/definition/monster.js" ></script>
+
+    <script src="static/js/game/factory.js" ></script>
+    <script src="static/js/game/effect.js" ></script>
+    <script src="static/js/game/monster_ai.js" ></script>
+    <script src="static/js/game/pathmap.js" ></script>
+    <script src="static/js/game/levelgen.js" ></script>
+
+    <script src="static/js/game/combat/combat.js" ></script>
+    <script src="static/js/game/combat/targeting.js" ></script>
+    
+    <script src="static/js/game/ui/keymap.js" ></script>
+    <script src="static/js/game/ui/input.js" ></script>
+    <script src="static/js/game/ui/display.js" ></script>
+    <script src="static/js/game/ui/menu.js" ></script>
+
+    <!-- <script src="static/js/game/interaction/flask.js" ></script> -->
+    <!-- <script src="static/js/game/interaction/wand.js" ></script> -->
+    <script src="static/js/game/interaction/scroll.js" ></script>
+    <script src="static/js/game/interaction/rune.js" ></script>
+
+    <script src="static/js/game/debug.js" ></script>
+    <script src="static/js/game/axe.js" ></script>
+    <script src="static/js/game/brew_game.js" ></script>
+    
+    <script type="text/javascript">
+        var fontName = "DejaVuSansMono";
+        var rotjs_spacing = 1.15;
+        // var fontName = "White Rabbit";
+
+        // http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript/901144#901144
+        function getParameterByName(name) {
+            var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+            return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+        }
+
+        var startGame = function () {
+            // ROT.RNG.setSeed(6);
+            $("#id_pre_intro").hide();
+
+            // MAIN GAME display
+            var display = new ROT.Display({
+                width: Brew.panels.full.width,
+                height: Brew.panels.full.height,
+                fontSize: 24,
+                fontFamily: fontName,
+                bg: ROT.Color.toHex(Brew.colors.black),
+                // border: 1,
+                spacing: rotjs_spacing
+            });
+
+            // figure out how big each "tile" is, based on font
+            var tile_width = display.getContainer().width / Brew.panels.full.width;
+            var tile_height = display.getContainer().height / Brew.panels.full.height;
+
+            // LAYER display - stuff like targeting cursors, fog, and related 'features'
+            var layer_display = new ROT.Display({
+                width: Brew.panels.full.width,
+                height: Brew.panels.full.height,
+                fontSize: 24,
+                fontFamily: fontName,
+                bg: "transparent",
+                // border: 1,
+                spacing: rotjs_spacing
+            });
+
+            // dialog - menu and other on-screen text, at a smaller font
+            var test_display = new ROT.Display({
+                width: Brew.panels.game.width,
+                height: Brew.panels.game.height,
+                fontSize: 14,
+                fontFamily: fontName,
+                bg: "transparent"
+            });
+
+            var test_tile_width = test_display.getContainer().width / Brew.panels.game.width;
+            var test_tile_height = test_display.getContainer().height / Brew.panels.game.height;
+            
+            var dialog_width = display.getContainer().width + (test_tile_width * (Brew.panels.game.width - Brew.panels.full.width));
+            var dialog_height = display.getContainer().height + (test_tile_height * (Brew.panels.game.height - Brew.panels.full.height));
+
+            var dialogdisplay_tile_width = Math.floor(dialog_width / test_tile_width);
+            var dialogdisplay_tile_height = Math.floor(dialog_height / test_tile_height) - 2;
+            
+            Brew.config.dialog_display = {
+                "width": dialogdisplay_tile_width, 
+                "height": dialogdisplay_tile_height,
+                "xconvert": dialogdisplay_tile_width / Brew.panels.game.width,
+                "yconvert": dialogdisplay_tile_height / Brew.panels.game.height
+            };
+
+            // console.log(test_tile_width, test_tile_height, dialogdisplay_tile_width, dialogdisplay_tile_height);
+            // resize dialog display to be as big as the main display, adjusting for smaller font size
+            var dialog_display = new ROT.Display({
+                width: dialogdisplay_tile_width,
+                height: dialogdisplay_tile_height,
+                fontSize: 14,
+                fontFamily: fontName,
+                bg: "transparent"
+            });
+
+            $("#id_div_game").append(display.getContainer());
+
+            $("#id_div_layer").attr("width", display.getContainer().width);
+            $("#id_div_layer").attr("height", display.getContainer().height);
+            $("#id_div_layer").append(layer_display.getContainer());
+            $("#id_div_layer").hide()
+
+            $("#id_div_dialog").attr("width", display.getContainer().width);
+            $("#id_div_dialog").attr("height", display.getContainer().height);
+            $("#id_div_dialog").append(dialog_display.getContainer());
+            $("#id_div_dialog").hide()
+
+            Brew.Game = new Brew.GameObject({
+                "game": display,
+                // "hud": hud_display,
+                "layer": layer_display,
+                "dialog": dialog_display
+            });
+
+            // grid mangler is a layer over top of the game grid
+            grid_manager = gridmangler(layer_display.getContainer(), tile_width, tile_height);
+
+            grid_manager.addGridEvent("gainfocus", 
+                function (grid_xy) {
+                    Brew.Input.mouseGainFocus(grid_xy);
+                }
+            );
+            grid_manager.addGridEvent("leavefocus", 
+                function (grid_xy) {
+                    Brew.Input.mouseLeaveFocus(grid_xy);
+                }
+            );
+            grid_manager.addGridEvent("mousedown", 
+                function (grid_xy, button, shift_key) {
+                    Brew.Input.mouseDown(grid_xy, button, shift_key);
+                }
+            );
+            grid_manager.addGridEvent("longpress", 
+                function (grid_xy, button, shift_key) {
+                    Brew.Input.mouseLongClick(grid_xy, button, shift_key);
+                }
+            );
+
+            $(document).off("keydown");
+            $(document).keydown(function (event) {
+                if ((event.keyCode === 9) || (event.keyCode === 32)) {
+                    event.preventDefault();
+                }
+                Brew.Input.keypress(event);
+            }); 
+
+            Brew.Game.start();
+
+        } // end startGame 
+
+        $(document).ready(function ( ) {
+
+            WebFont.load({
+                custom: {
+                    families: ['DejaVuSansMono'],//, 'Topaz8', 'White Rabbit'],
+                    urls: ['static/css/dejavusansmono.css']//, '/static/css/topaz.css', '/static/css/whitrabt.css']
+                },
+                active: startGame
+            });
+            
+            WebFontConfig = {
+                active: startGame
+            };
+
+            // $("#id_pre_intro").click(function (event) {
+            // startGame();
+            // });
+            
+            // $(document).keydown(function (event) {
+            //     if (event.keyCode === 32) {
+            //         event.preventDefault();
+            //         startGame();
+            //     }
+            // });
+
+        }); // end document.ready
+
+
+        // $(document).keydown(function (event) {
+        // });
+    </script>
+
+    
+
+</head>
+
+<body>
+    <pre id="id_pre_intro">
+How HEAVY this AXE.
+
+A roguelike made in seven days for the 2015 "Seven Day Roguelike Challenge". Enjoy.
+
+If you are seeing this it means the fonts are taking a really long time to load, sorry!
+
+For best results, use Chrome or Firefox.
+
+    </pre>
+    
+    <table id="gamecontent">
+        <tr>
+            <td style='width: 40%'>
+                <div id="id_div_game"></div>
+                <div id="id_div_layer"></div>
+                <div id="id_div_dialog"></div>
+            </td>
+
+            <td>
+                <div id="id_div_onscreeninfo"></div>
+            </td>    
+
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><div id="id_div_howtoplay"><a target="_blank" href="howtoplay.html">[ Controls + How To Play ]</a></div></td>
+            <td><div id="new_seed"><a href="/">[ New Game ]</a></div></td>
+            <td><div id="id_div_seed"></div></td>
+        </tr>
+    </table>
+
+    <select id="id_select_debug"></select>
+    <div id="id_div_coord_debug"></div>
+    <div id="comments">
+    <p>This is the 7DRL version, bugfixes and improvements to come later. For now, I sleep. Instructions and gameplay tactics <a target="_blank" href="howtoplay.html">are here</a>.</p>
+    <p>Special thanks to Ondrej Zara for the amazing <a href="http://ondras.github.io/rot.js/hp/">ROT.js</a> library.</p>
+    <p>Drop me a line with comments and bugs: <img src="/static/images/email_blue.png" />, or track me down on <a href="http://www.reddit.com/r/roguelikes/comments/2z30b5/7drl_heavy_axe_success/">reddit.</a></p>
+    <p>Thanks so much for playing!</p>
+    </div>
+
+</body>
+
+</html>

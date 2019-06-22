@@ -1,0 +1,12 @@
+bugs
+x cant go back to last level from invisible stairs
+x recall path through runes erases them in front of player
+x drop axe from ITEM menu?
+x can't leave level without AXE
+? useful ID message when using recall scroll with axe in hand
+- didn't get my axe back after it travelled really really far (seed 411 lvel 2)
+- special message when wasting health rune?
+- explain controls right at bottom of screen
+
+- bug on shiny effect with shield.. animation does not clear
+- maybe some sort of periodic check on animations to clear them out? (after a few inputs)

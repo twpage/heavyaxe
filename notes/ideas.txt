@@ -1,0 +1,46 @@
+? rest - enables defense? will block some amount of first attack
+
+? Traps are wards, can sneak by, only activate when carrying Axe
+? Walk over tiles to get power up but only have one power at a time
+	Do you know what runes are beforehand? Maybe some are bad
+	Maybe some runes recharge, others are one time use per level?
+? Fire rune means victim burns and takes damage after if you walk away, but no + additional damage?
+? Some way to memorize rune tiles and keep them, and use them later. Scrolls? Do they need blanks, blood to write? 
+	Can you carry them or just memorize X at a time?? Slots go up on higher levels.
+? Chain kills restores stamina each time and also gives some kind of bonus or extra buffer? 
+	That way you can really line up multiple dudes
+? Enemy that teleports if you don't kill it in 1 hit
+? Enemy that splits when hit
+? Enemy with DISARM attack that sends axe to random spot
+? Block mechanic?
+
+? 4 powers, when long press , in a diamond: (controller support)
+	Charge
+	Smash
+	Block
+	??
+	Throw?
+
+? Enemies that turn into runes when they die (guardians, sentinels, sentries)
+
+? Randomize enemies based on a few characteristics:
+	Rune on death
+	HP
+	Move?
+	Attack DMG
+	Splits
+	Teleports
+	Regenerates
+? Firey - monster that damages when play adjacent
+
+? sense_all instead of see_all
+? stun attack without axe
+
+
+reddit - Fyrehn8
+After pondering it some more, another thing about taunting is there is no pressure to use it. So, in the end, you clear everything else and then it turns into a "wake up one enemy" button. Pressuring the player to both use it and not use it is probably a good idea. Or, rephrased, provide situations where it's good and where it's bad to taunt.
+One idea is enemies that you actively need to taunt. Perhaps a high warden that runs away when his shield is broken. If he gets far enough away, the shield comes back and he returns to being aggressive. You'd taunt to prevent him from fleeing and regaining the shield. Or a spearman that moves up to one tile away but not adjacent, then moves away from the player if the player moves closer. If the player pushes them back against a wall and moves adjacent, the player takes damage. It might have interesting consequences with enemies piling up behind it (or might have unwanted consequences, I didn't think about it that much, heh).
+On the flip side, you want enemies you don't want to taunt. Perhaps the 7-health guys would instead be statues that wake up if taunted and you otherwise don't have to kill them to finish the level. Or a berserker that gains a shield when taunted. Or zealots would instead not blow up unless taunted.
+There could probably be totally different mechanics involved with taunting, like costing stamina or not regaining stamina for a while after. Or, if you continually taunt you pump yourself up and don't lose stamina while moving, but if you go without fighting/taunting you burn out and lose all stamina. Or something totally different, but I don't know where you want to go with the game, heh. I see in the code you were thinking of wands and potions.
+A general idea to make the game harder might be to make attacking reduce your stamina by one. Prevents the player from just whacking enemies if they line up and walk in.
+As a side note, using stairs should just refill your stamina so the player doesn't have to rest first since it's just an annoyance.

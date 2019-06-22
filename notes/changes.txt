@@ -1,0 +1,33 @@
+changes.txt
+
+Version 2 - Post 7DRL
+
+Interface
+- all scrolls are pre-identified
+- inventory automatically stacks to hotkeys
+
+New Stuff
+- new scroll of shattering
+- Warden is a new enemy that respawns stronger after each death
+
+Enemies
+- new mid-game Paladin enemy replaces the shielded Warden
+- Enemy field of view is more limited
+- Enemy field of view is displayed on-screen
+- Passive enemies will double sight/view when awoken
+
+Gameplay
+- Resting now automatically alerts (taunts) nearby enemies
+- Walking without the Axe regenerates stamina
+- Spending too much time on a level summons the Warden
+- Moving without the Axe does not increment Warden timer
+- Scrolls of sacrifice, shatter, and shield do not end your turn
+
+Bugs/misc
+- automatically reset stamina when entering new level
+
+
+xxxxxx
+- templars only attack in groups
+- rest/taunt is combined
+- sacrifice time instead of health

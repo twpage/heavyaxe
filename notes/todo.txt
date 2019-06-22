@@ -1,0 +1,24 @@
+todo
+
+version 2
+- some way to differentiate levels aesthetically
+- always 1 recall rune per level
+- always pair of portals per level?
+- portals need to be farther appart
+- bifurcate distribution of scrolls vs. runes
+- rune of lightning / some other unique rune
+- complete sounds
+	- hitting
+	- take damage (same time as hitting?)
+	- recall
+	- shield
+- settings
+	- sound off
+- title screen
+	- custom game w/ seed
+	- sound on/off
+	- 'how to'
+- better help menu on ?
+- preview axe recall pathing
+- change / cycle axe recall pathing?
+- add weighting for scrolls and runes

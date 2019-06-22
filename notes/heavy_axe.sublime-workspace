@@ -1,0 +1,1772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nei",
+				"neighbor_xy"
+			],
+			[
+				"neighbo",
+				"neighbor_xy"
+			],
+			[
+				"play",
+				"play_sound"
+			],
+			[
+				"dist",
+				"dist2d"
+			],
+			[
+				"dialo",
+				"dialog_xy"
+			],
+			[
+				"clearDi",
+				"clearDialogDisplayAt"
+			],
+			[
+				"instruction",
+				"instruction_text"
+			],
+			[
+				"compare",
+				"compareThing"
+			],
+			[
+				"desc",
+				"decision_result"
+			],
+			[
+				"pass",
+				"passable_lst"
+			],
+			[
+				"start",
+				"starting_scrolls"
+			],
+			[
+				"incre",
+				"increaseLevelOfDoom"
+			],
+			[
+				"getER",
+				"getRandomWalkableLocation"
+			],
+			[
+				"scroll_",
+				"scroll_type"
+			],
+			[
+				"portal",
+				"portal_runes"
+			],
+			[
+				"port",
+				"portal_runes"
+			],
+			[
+				"rune",
+				"rune_item"
+			],
+			[
+				"onscren",
+				"onscreen_html"
+			],
+			[
+				"out",
+				"outer_walls"
+			],
+			[
+				"adj",
+				"adjacent_test_xy"
+			],
+			[
+				"terrainF",
+				"terrainFactory"
+			],
+			[
+				"axe_",
+				"axe_xy_list"
+			],
+			[
+				"monsters",
+				"monsters_in_path"
+			],
+			[
+				"animation",
+				"animation_speed"
+			],
+			[
+				"player",
+				"playerinfo"
+			],
+			[
+				"target_",
+				"target_xy"
+			],
+			[
+				"my_dis",
+				"my_dialog_display"
+			],
+			[
+				"getRan",
+				"getRandomWalkableLocationFromHextant"
+			],
+			[
+				"oppo",
+				"opposite_sides_map"
+			],
+			[
+				"center",
+				"center_xy"
+			],
+			[
+				"existing_",
+				"existing_level_id"
+			],
+			[
+				"exist",
+				"existing_level"
+			],
+			[
+				"curren",
+				"current_xy"
+			],
+			[
+				"la",
+				"layer_color"
+			],
+			[
+				"pop",
+				"popup_width_tiles"
+			],
+			[
+				"dismiss",
+				"dismiss_text"
+			],
+			[
+				"left",
+				"leftover"
+			],
+			[
+				"dismi",
+				"dismiss_text"
+			],
+			[
+				"my_",
+				"my_player"
+			],
+			[
+				"canC",
+				"canCreateHole"
+			],
+			[
+				"canCr",
+				"canCreateBridge"
+			],
+			[
+				"canB",
+				"canCreateBarrier"
+			],
+			[
+				"canCre",
+				"canCreateBastionAt"
+			],
+			[
+				"canCra",
+				"canCreateBarrier"
+			],
+			[
+				"random",
+				"random_xy"
+			],
+			[
+				"x",
+				"x_diff"
+			],
+			[
+				"aby",
+				"abyss_tiles"
+			],
+			[
+				"stat",
+				"start_xy"
+			],
+			[
+				"gr",
+				"growTerrain"
+			],
+			[
+				"avera",
+				"average_float"
+			],
+			[
+				"aver",
+				"average_float"
+			],
+			[
+				"neigh",
+				"neighborhood_values"
+			],
+			[
+				"visi",
+				"visited_key_list"
+			],
+			[
+				"initi",
+				"initial_height"
+			],
+			[
+				"xy",
+				"xy_list"
+			],
+			[
+				"create",
+				"createTerrainCA"
+			],
+			[
+				"hud",
+				"hud_width_tiles"
+			],
+			[
+				"til",
+				"tile_text"
+			],
+			[
+				"doWhen",
+				"doWhenPlayerLeavesTile"
+			],
+			[
+				"already",
+				"already_fell"
+			],
+			[
+				"tile_",
+				"tile_xy"
+			],
+			[
+				"grid",
+				"grid_xy"
+			],
+			[
+				"layer",
+				"layer_display"
+			],
+			[
+				"ran",
+				"random_xy"
+			],
+			[
+				"sta",
+				"stable_tile_keys"
+			],
+			[
+				"check",
+				"checkValid"
+			],
+			[
+				"bastion",
+				"bastion_adjacent"
+			],
+			[
+				"power",
+				"power_text"
+			],
+			[
+				"ch",
+				"checkForFallingMonsters"
+			],
+			[
+				"getTerr",
+				"getTerrainAt"
+			],
+			[
+				"getMon",
+				"getMonsterAt"
+			],
+			[
+				"scre",
+				"screen_width_tiles"
+			],
+			[
+				"ab",
+				"abyss_hunger"
+			],
+			[
+				"new",
+				"new_xy"
+			],
+			[
+				"or",
+				"orig_groundheight"
+			],
+			[
+				"neighb",
+				"neighbor_tile"
+			],
+			[
+				"getT",
+				"getTerrainAt"
+			],
+			[
+				"draw",
+				"drawTileAt"
+			],
+			[
+				"ne",
+				"neighbor_tile"
+			],
+			[
+				"d",
+				"diff_xy"
+			],
+			[
+				"view_",
+				"view_offset_xy"
+			],
+			[
+				"pre",
+				"precipiece_xy_lst"
+			],
+			[
+				"preci",
+				"precipice_tile_keys"
+			],
+			[
+				"ground",
+				"groundheight"
+			],
+			[
+				"sh",
+				"shift_key"
+			],
+			[
+				"height",
+				"height_tiles"
+			],
+			[
+				"Rect",
+				"RectangleRoom"
+			],
+			[
+				"Ren",
+				"RectangleRoom"
+			],
+			[
+				"generate",
+				"generateRoom_ellipse"
+			],
+			[
+				"floorpl",
+				"floorplan_room"
+			],
+			[
+				"exi",
+				"existing_overhead"
+			],
+			[
+				"overh",
+				"overhead_cache"
+			],
+			[
+				"high",
+				"highlight_color"
+			],
+			[
+				"instru",
+				"instruct_text"
+			],
+			[
+				"off",
+				"offset_xy"
+			],
+			[
+				"inp",
+				"input_handler"
+			],
+			[
+				"screen_",
+				"screen_xy"
+			],
+			[
+				"tutor",
+				"tutorial_texts"
+			],
+			[
+				"cre",
+				"created_by"
+			],
+			[
+				"poten",
+				"potential_items"
+			],
+			[
+				"monster",
+				"monster_def"
+			],
+			[
+				"weapon_",
+				"weapon_stun_chance"
+			],
+			[
+				"weapon",
+				"weapon_pierce"
+			],
+			[
+				"defe",
+				"defender_armor"
+			],
+			[
+				"sc",
+				"screen_tiles_width"
+			],
+			[
+				"know",
+				"knowledge"
+			],
+			[
+				"loc",
+				"location_xy"
+			],
+			[
+				"getL",
+				"getLastVisitGrid"
+			],
+			[
+				"fire",
+				"firey_lst"
+			],
+			[
+				"current",
+				"current_abil"
+			],
+			[
+				"sele",
+				"selected_abil"
+			],
+			[
+				"randomi",
+				"randomizeItemCatalog"
+			],
+			[
+				"uni",
+				"unidentified_name"
+			],
+			[
+				"runA",
+				"runAnimation"
+			],
+			[
+				"runAnim",
+				"runAnimation_SceneHelper"
+			],
+			[
+				"trav",
+				"traverse_lst"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "static/js/game/config.coffee",
+			"settings":
+			{
+				"buffer_size": 7847,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/game/interaction/scroll.coffee",
+			"settings":
+			{
+				"buffer_size": 2594,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/game/monster_ai.coffee",
+			"settings":
+			{
+				"buffer_size": 12868,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "changes.txt",
+			"settings":
+			{
+				"buffer_size": 886,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/game/objects.coffee",
+			"settings":
+			{
+				"buffer_size": 19099,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/game/effect.coffee",
+			"settings":
+			{
+				"buffer_size": 8551,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10941,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/game/catalog/itemtype.coffee",
+			"settings":
+			{
+				"buffer_size": 1565,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/ui"
+	],
+	"file_history":
+	[
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/catalog/group.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/bugs.txt",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/debug.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/ideas.txt",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/todo.txt",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/levelgen.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/ui/display.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/titlescreen.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/brew_game.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/brew_sound.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/ui/input.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/axe.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/ui/menu.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/title.html",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/definition/monster.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/monster_ai.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/index.html",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/pathmap.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/css/brew.css",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/combat/combat.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/objects.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/interaction/rune.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/definition/terrain.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/levelgen.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/definition/item.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/howtoplay.html",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/ui/keymap.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/factory.coffee",
+		"/C/Users/Todd/Desktop/7DRL 2015/judging.txt",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/interaction/scroll.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/changes.txt",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/utils.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/brew_gamepad.js",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/catalog/catalog.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/archive/menu.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/title.txt",
+		"/C/Users/Todd/Dropbox/Games/7DRL 2015/judging.txt",
+		"/C/Users/Todd/Dropbox/Games/Brogue/contest intro.txt",
+		"/C/Users/Todd/Dropbox/Games/Brogue/weekendcontests.txt",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/combat/targeting.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/interaction/flask.coffee",
+		"/C/Users/Todd/Dropbox/Games/Brogue/Brogue v1.7.4-ArchiveScores/Brogue Source/BrogueCode/Globals.c",
+		"/C/Users/Todd/Dropbox/Games/Brogue/Brogue v1.7.4-ArchiveScores/Brogue Source/BrogueCode/Items.c",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/config.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/catalog/itemtype.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/effect.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/css/DejaVuSansMono.woff",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/screens/Heavy Axe - 7DRL 2015 - Day 03.webm",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/css/topaz.css",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/definition/feature.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/lib/gridmangler.js",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/messages.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/animation.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/heavy_axe.sublime-workspace",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/heavy_axe.sublime-project",
+		"/C/Users/Todd/Dropbox/Proj/precipice/index.html",
+		"/C/Users/Todd/Dropbox/Proj/heavyaxe/static/js/game/_top.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/brew2.sublime-project",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/ui/keymap.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/ideas.txt",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/css/dejavusansmono.css",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/game.html",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/objects.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/levelgen.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/ui/display.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/monster_ai.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/config.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/brew_interface.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/brew_game.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/ui/menu.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/monster.coffee",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/lib/gridmangler.js",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/static/js/game/item.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/lib/gridmangler.js",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/brew2.sublime-workspace",
+		"/C/Users/Todd/Dropbox/Proj/witchesbrew2/index.html",
+		"/C/Users/Todd/Dropbox/Proj/precipice/ideas.txt",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/monster_ai.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/css/precipice.css",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/css/dejavusansmono.css",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/css/DejaVuSansMono.woff",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/universe.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/rooms.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/roomtypes.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/brew_game.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/abyss.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/config.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/unusedcode.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/keymap.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/brew_interface.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/objects.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/ddual/templates/ddual/game.html",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/ddual/templates/ddual/index.html",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/terrain.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/monster.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/utils.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/factory.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/levelgenerator.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/precipice.sublime-project",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/monster.js",
+		"/C/Users/Todd/Dropbox/Proj/precipice/titletext.txt",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/objects.coffee",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/levelgenerator.js",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/lib/gridmangler_hex.js",
+		"/C/Users/Todd/Dropbox/Proj/precipice/runserver.cmd",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/ddual/templates/ddual/rooms.html",
+		"/C/Users/Todd/Dropbox/Proj/precipice/runcoffee.cmd",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/ddual-dev.sublime-project",
+		"/C/Users/Todd/Dropbox/Proj/precipice/static/js/game/_top.coffee",
+		"/C/Users/Todd/Dropbox/Proj/heroicfisticuffs.com/index.html",
+		"/C/Users/Todd/Dropbox/Proj/precipice/src/css/precipice.css",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/utils.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/dungeondual/urls.py",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/ddual/views.py",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/item.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/terrain.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/feature.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/brew_abilities.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/keymap.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/ddual/tests.py",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/todo.txt",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/ddual/templates/ddual/levelgen.html",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/js/game/socket.coffee",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/sunspider actually.txt",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/css/dejavusansmono.css",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/css/consolas.css",
+		"/C/Users/Todd/Dropbox/Proj/dungeondual/static/ddual/css/robocaptain.css",
+		"/C/Users/Todd/Documents/GitHub/dungeondual/ddual/templates/ddual/game.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"*.coffee",
+			"*.coffeedraw",
+			"*.coffee",
+			"*.html",
+			"*.coffee",
+			"*.*",
+			"*.coffee",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getRecallAxePath",
+			"WeAPON",
+			"compare",
+			"axe_item",
+			"clone",
+			"doRecallAxeWithPath",
+			"sound",
+			"highlightat",
+			"getRecallAxePath",
+			"gold",
+			"lightblue",
+			"drawMapAt",
+			"drawGamePanel",
+			"setHighlight",
+			"endPlayerTurn",
+			"Brew.Game.addAnimation",
+			"pickupAndWieldAxe",
+			"finishRecallAxe",
+			"allies",
+			"in a group",
+			"getRandomWalkableLocation",
+			"RUNE_RECALL",
+			"type_of",
+			"i.itemType",
+			"Brew.group.rune.id",
+			"Brew.group.SC",
+			"starting_scrolls",
+			"cleared it",
+			"cleardisplayat",
+			"showFloatingTextAbove",
+			"clearDisplayAt",
+			"floating",
+			"mapToScreen",
+			"playerMouseClick_Game",
+			"getPanelAt",
+			"panel ==",
+			"screenTo",
+			"keypress",
+			"drawBorders",
+			"panel.dialog",
+			"id_div_dialog",
+			"dialogDisplay",
+			"getKeepDistanceDirection",
+			"monster turn",
+			"checkAttackGroup",
+			"knowledge",
+			"getKnowledge",
+			"attacks_in_group",
+			"attacks_in",
+			"getKeepDistanceDirection",
+			"getMoveAwayFromPlayer",
+			"getKeepDistanceDirection",
+			"action = \"wait",
+			"getKeepDistanceDirection",
+			"action = \"wait",
+			"status = \"wait",
+			"execMonsterTurnResult",
+			"dropped max",
+			"getAttackRange",
+			"canAttack",
+			"path",
+			"createMapSurroundPlayer",
+			"stand",
+			"monsters_per_level",
+			"checkFlagCounters",
+			"flagcounter",
+			"setFlagCounter",
+			"setFlag",
+			"glowers",
+			"getKeepDistanceDirection",
+			"keeps_distance",
+			"createMapSurroundPlayer",
+			"updatePathMapsFor",
+			"attacks_in_group",
+			"Brew.flags.",
+			"updatepathmap",
+			"updatePathMapsEndOfPlayerTurn",
+			"updatePathMapsFor",
+			"updatepath",
+			"drawDisplayAll",
+			"debugPathMaps",
+			"debug",
+			"id_div_show_intro",
+			"arrow_w",
+			"getItemColor",
+			"ambient",
+			"activateDialogScreen",
+			"doPlayerApply",
+			"getScrollStack",
+			"showInventory",
+			"itemMenu",
+			"Brew.Menu.popup",
+			"WebFont",
+			"▀",
+			"▄",
+			"█",
+			"▀",
+			"▄",
+			"█",
+			"picked up",
+			"can't go",
+			"moveThing",
+			"can't go",
+			"target lost",
+			"increaseLevelOfDoom",
+			"initial_doom",
+			"increaseLevelOfDoom",
+			"taunt",
+			"def",
+			"increaseLevelOfDoom",
+			"findMove_AStar",
+			"giveup = 0",
+			"refreshsch",
+			"doom",
+			"color",
+			"setmonsterat",
+			"createStat",
+			"getstat",
+			"addstat",
+			"setstat",
+			"Brew.stats.",
+			"safe",
+			"explodeOnDeath",
+			"explodes",
+			"Brew.colors.blood",
+			"is_passive",
+			"ceil",
+			"updateAllFov"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"n",
+			"#",
+			"\"",
+			"n",
+			"X",
+			"item.group",
+			"@msg",
+			"",
+			"drawGamePanelAt",
+			"panels.full",
+			"js/lib/gridmangler.js",
+			"js/lib/rot.min.js",
+			"js/lib/jquery.min.js",
+			"] =",
+			"",
+			"gameLevel()",
+			"ui.displayat",
+			"gamePlayer()",
+			"gamePlayer",
+			"gameLevel",
+			"currentLevel()"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "static/js/game/config.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 750.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "static/js/game/interaction/scroll.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2318,
+								2318
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 589.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "static/js/game/monster_ai.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9657,
+								9657
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4042.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "changes.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								886,
+								886
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "static/js/game/objects.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14844,
+								14844
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9247.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "static/js/game/effect.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4571,
+								4571
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2160.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5786,
+								5786
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 459.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "static/js/game/catalog/itemtype.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								718,
+								711
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "heavy_axe.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"axe",
+				"static\\js\\game\\axe.coffee"
+			],
+			[
+				"sound",
+				"static\\js\\game\\brew_sound.coffee"
+			],
+			[
+				"menu",
+				"static\\js\\game\\ui\\menu.coffee"
+			],
+			[
+				"input",
+				"static\\js\\game\\ui\\input.coffee"
+			],
+			[
+				"chan",
+				"changes.txt"
+			],
+			[
+				"scrol",
+				"static\\js\\game\\interaction\\scroll.coffee"
+			],
+			[
+				"game",
+				"static\\js\\game\\brew_game.coffee"
+			],
+			[
+				"config",
+				"static\\js\\game\\config.coffee"
+			],
+			[
+				"scr",
+				"static\\js\\game\\interaction\\scroll.coffee"
+			],
+			[
+				"dis",
+				"static\\js\\game\\ui\\display.coffee"
+			],
+			[
+				"display",
+				"static\\js\\game\\ui\\display.coffee"
+			],
+			[
+				"scroll",
+				"static\\js\\game\\interaction\\scroll.coffee"
+			],
+			[
+				"bugs",
+				"bugs.txt"
+			],
+			[
+				"eff",
+				"static\\js\\game\\effect.coffee"
+			],
+			[
+				"level",
+				"static\\js\\game\\levelgen.coffee"
+			],
+			[
+				"todo",
+				"todo.txt"
+			],
+			[
+				"conf",
+				"static\\js\\game\\config.coffee"
+			],
+			[
+				"levelg",
+				"static\\js\\game\\levelgen.coffee"
+			],
+			[
+				"idea",
+				"ideas.txt"
+			],
+			[
+				"bug",
+				"bugs.txt"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"css",
+				"static\\css\\brew.css"
+			],
+			[
+				"title",
+				"static\\js\\game\\titlescreen.coffee"
+			],
+			[
+				"di",
+				"static\\js\\game\\ui\\display.coffee"
+			],
+			[
+				"displ",
+				"static\\js\\game\\ui\\display.coffee"
+			],
+			[
+				"ai",
+				"static\\js\\game\\monster_ai.coffee"
+			],
+			[
+				"monst",
+				"static\\js\\game\\definition\\monster.coffee"
+			],
+			[
+				"pathm",
+				"static\\js\\game\\pathmap.coffee"
+			],
+			[
+				"debug",
+				"static\\js\\game\\debug.coffee"
+			],
+			[
+				"mon",
+				"static\\js\\game\\definition\\monster.coffee"
+			],
+			[
+				"path",
+				"static\\js\\game\\pathmap.coffee"
+			],
+			[
+				"debu",
+				"static\\js\\game\\debug.coffee"
+			],
+			[
+				"mont",
+				"static\\js\\game\\definition\\monster.coffee"
+			],
+			[
+				"how",
+				"howtoplay.html"
+			],
+			[
+				"howto",
+				"howtoplay.html"
+			],
+			[
+				"",
+				"title.html"
+			],
+			[
+				"keym",
+				"static\\js\\game\\ui\\keymap.coffee"
+			],
+			[
+				"item",
+				"static\\js\\game\\definition\\item.coffee"
+			],
+			[
+				"catalog",
+				"static\\js\\game\\catalog\\catalog.coffee"
+			],
+			[
+				"obj",
+				"static\\js\\game\\objects.coffee"
+			],
+			[
+				"be",
+				"static\\css\\brew.css"
+			],
+			[
+				"rune",
+				"static\\js\\game\\interaction\\rune.coffee"
+			],
+			[
+				"ideas",
+				"ideas.txt"
+			],
+			[
+				"mons",
+				"static\\js\\game\\definition\\monster.coffee"
+			],
+			[
+				"taunt",
+				"static\\js\\game\\ui\\input.coffee"
+			],
+			[
+				"utils",
+				"static\\js\\game\\utils.coffee"
+			],
+			[
+				"ch",
+				"changes.txt"
+			],
+			[
+				"monster",
+				"static\\js\\game\\monster_ai.coffee"
+			],
+			[
+				"itemt",
+				"static\\js\\game\\catalog\\itemtype.coffee"
+			],
+			[
+				"changes",
+				"changes.txt"
+			],
+			[
+				"disp",
+				"static\\js\\game\\ui\\display.coffee"
+			],
+			[
+				"object",
+				"static\\js\\game\\objects.coffee"
+			],
+			[
+				"leveg",
+				"static\\js\\game\\levelgen.coffee"
+			],
+			[
+				"combat",
+				"static\\js\\game\\combat\\combat.coffee"
+			],
+			[
+				"fac",
+				"static\\js\\game\\factory.coffee"
+			],
+			[
+				"factory",
+				"static\\js\\game\\factory.coffee"
+			],
+			[
+				"group",
+				"static\\js\\game\\catalog\\group.coffee"
+			],
+			[
+				"objects",
+				"static\\js\\game\\objects.coffee"
+			],
+			[
+				"brew",
+				"static\\css\\brew.css"
+			],
+			[
+				"terrain",
+				"static\\js\\game\\definition\\terrain.coffee"
+			],
+			[
+				"itemtyp",
+				"static\\js\\game\\catalog\\itemtype.coffee"
+			],
+			[
+				"effect",
+				"static\\js\\game\\effect.coffee"
+			],
+			[
+				"scro",
+				"static\\js\\game\\interaction\\scroll.coffee"
+			],
+			[
+				"ietem",
+				"static\\js\\game\\catalog\\itemtype.coffee"
+			],
+			[
+				"grou",
+				"static\\js\\game\\catalog\\group.coffee"
+			],
+			[
+				"catal",
+				"static\\js\\game\\catalog\\catalog.coffee"
+			],
+			[
+				"terr",
+				"static\\js\\game\\definition\\terrain.coffee"
+			],
+			[
+				"leve",
+				"static\\js\\game\\levelgen.coffee"
+			],
+			[
+				"cata",
+				"static\\js\\game\\catalog\\catalog.coffee"
+			],
+			[
+				"itemtype",
+				"static\\js\\game\\catalog\\itemtype.coffee"
+			],
+			[
+				"gr",
+				"static\\js\\game\\catalog\\group.coffee"
+			],
+			[
+				"catalo",
+				"static\\js\\game\\catalog\\catalog.coffee"
+			],
+			[
+				"feature",
+				"static\\js\\game\\definition\\feature.coffee"
+			],
+			[
+				"scrll",
+				"static\\js\\game\\interaction\\scroll.coffee"
+			],
+			[
+				"com",
+				"static\\js\\game\\combat\\combat.coffee"
+			],
+			[
+				"util",
+				"static\\js\\game\\utils.coffee"
+			],
+			[
+				"obje",
+				"static\\js\\game\\objects.coffee"
+			],
+			[
+				"id",
+				"ideas.txt"
+			],
+			[
+				"ide",
+				"ideas.txt"
+			],
+			[
+				"int",
+				"static\\js\\game\\pcp_interface.coffee"
+			],
+			[
+				"l",
+				"static\\js\\game\\levelgenerator.coffee"
+			],
+			[
+				"key",
+				"static\\js\\game\\keymap.coffee"
+			],
+			[
+				"inte",
+				"static\\js\\game\\pcp_interface.coffee"
+			],
+			[
+				"unu",
+				"unusedcode.coffee"
+			],
+			[
+				"c",
+				"static\\js\\game\\config.coffee"
+			],
+			[
+				"un",
+				"unusedcode.coffee"
+			],
+			[
+				"ob",
+				"static\\js\\game\\objects.coffee"
+			],
+			[
+				"terri",
+				"static\\js\\game\\terrain.coffee"
+			],
+			[
+				"keyc",
+				"static\\js\\game\\keymap.coffee"
+			],
+			[
+				"feat",
+				"static\\ddual\\js\\game\\feature.coffee"
+			],
+			[
+				"inter",
+				"static\\ddual\\js\\game\\brew_interface.coffee"
+			],
+			[
+				"game.",
+				"ddual\\templates\\ddual\\game.html"
+			],
+			[
+				"abil",
+				"static\\ddual\\js\\game\\brew_abilities.coffee"
+			],
+			[
+				"levelgen",
+				"static\\ddual\\js\\game\\levelgen.coffee"
+			],
+			[
+				"objec",
+				"static\\ddual\\js\\game\\objects.coffee"
+			],
+			[
+				"interf",
+				"static\\ddual\\js\\game\\brew_interface.coffee"
+			],
+			[
+				"le",
+				"static\\ddual\\js\\game\\levelgen.coffee"
+			],
+			[
+				"socket",
+				"static\\ddual\\js\\game\\socket.coffee"
+			],
+			[
+				"robo",
+				"static\\ddual\\css\\robocaptain.css"
+			],
+			[
+				"tools",
+				"ddual\\tools.py"
+			],
+			[
+				"url",
+				"myproject\\urls.py"
+			],
+			[
+				"views",
+				"ddual\\views.py"
+			],
+			[
+				"base",
+				"ddual\\templates\\base.html"
+			],
+			[
+				"inde",
+				"ddual\\templates\\ddual\\index.html"
+			],
+			[
+				"lve",
+				"static\\ddual\\js\\levelgen.coffee"
+			],
+			[
+				"con",
+				"static\\ddual\\js\\config.coffee"
+			],
+			[
+				"in",
+				"static\\ddual\\js\\brew_interface.coffee"
+			],
+			[
+				"confi",
+				"static\\ddual\\js\\config.coffee"
+			],
+			[
+				"ani",
+				"static\\ddual\\js\\animation.coffee"
+			],
+			[
+				"ame",
+				"static\\ddual\\js\\brew_game.coffee"
+			],
+			[
+				"fea",
+				"static\\ddual\\js\\feature.coffee"
+			],
+			[
+				"urls",
+				"myproject\\urls.py"
+			],
+			[
+				"admin",
+				"ddual\\admin.py"
+			],
+			[
+				"models",
+				"ddual\\models.py"
+			],
+			[
+				"agame",
+				"static\\ddual\\js\\brew_game.coffee"
+			],
+			[
+				"mn",
+				"static\\ddual\\js\\monster.coffee"
+			],
+			[
+				"bas",
+				"ddual\\templates\\base.html"
+			],
+			[
+				"toos",
+				"ddual\\tools.py"
+			],
+			[
+				"model",
+				"ddual\\models.py"
+			],
+			[
+				"intel",
+				"static\\ddual\\js\\intel.coffee"
+			],
+			[
+				"mess",
+				"static\\ddual\\js\\messages.coffee"
+			],
+			[
+				"gam",
+				"static\\ddual\\js\\brew_game.coffee"
+			],
+			[
+				"tera",
+				"static\\ddual\\js\\terrain.coffee"
+			],
+			[
+				"anim",
+				"static\\ddual\\js\\animation.coffee"
+			],
+			[
+				"ab",
+				"static\\ddual\\js\\brew_abilities.coffee"
+			],
+			[
+				"sok",
+				"static\\ddual\\js\\socket.coffee"
+			],
+			[
+				"ro",
+				"static\\ddual\\css\\robocaptain.css"
+			],
+			[
+				"leveng",
+				"static\\ddual\\js\\levelgen.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,94 @@
+body {
+	background-color: #141414;
+	color: white;
+	font-family: 'DejaVuSansMono';
+}
+
+table#gamecontent {
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	width: 540px;
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+td {
+	vertical-align: top;
+}
+
+#id_pre_intro {
+	font-family: 'DejaVuSansMono';	
+}
+
+a {
+	color: rgb(51, 153, 255);
+}
+
+#id_div_onscreeninfo {
+	font-family: 'DejaVuSansMono';	
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#howtoplay_content {
+	width: 50%;
+}
+
+#id_div_dialog {
+	pointer-events:none;
+}
+
+.title_span_0 { color: rgb(0, 51, 102); }
+.title_span_1 { color: rgb(0, 102, 204); }
+.title_span_2 { color: rgb(0, 102, 204); }
+.title_span_3 { color: rgb(51, 153, 255); }
+.title_span_4 { color: rgb(51, 153, 255); }
+.title_span_5 { color: rgb(153, 255, 255); }
+.title_span_6 { color: rgb(153, 255, 255); }
+.title_span_7 { color: white; }
+
+.no_bullets {
+	list-style-type: none;
+}
+
+.menu_active {
+	color: rgb(51, 153, 255);
+}
+
+.menu_inactive {
+	color: white;
+}
+
+td.center {
+	text-align: center;
+}
+
+td.controls {
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+
+table.controls {
+	border-collapse: collapse;
+	border: 1px solid grey;
+}
+
+#id_div_title_contents {
+	width: 50%;
+}
+
+h4.title {
+	color: rgb(153, 255, 255);
+	display: inline;
+}
+
+.offset_row {
+	color: rgb(153, 153, 153);
+}
