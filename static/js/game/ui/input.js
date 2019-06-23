@@ -198,11 +198,13 @@
     if (keycode === 13) {
       $("#id_div_popup").hide();
       clearMenuAndInputHandler();
-      return window.location.replace("/");
+      // return window.location.replace("/");
+      return window.location.reload();
     } else if (keycode === 27) {
       $("#id_div_popup").hide();
       clearMenuAndInputHandler();
-      return window.location.replace("/");
+      // return window.location.replace("/");
+      return window.location.reload();
     }
   };
 
